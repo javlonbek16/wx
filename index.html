@@ -4,17 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pokemon</title>
     <link rel="stylesheet" href="main.css" />
     <link rel="website icon" href="img/porfolioi icon.png" type="svg" />
   </head>
   <body>
     <div class="container">
-      <input type="text" placeholder="search..." />
-      <button class="add"></button>
-      <button class="delete"></button>
-      <button class="edit"></button>
-      <div class="content"></div>
+      <button class="modal-open">
+        <img src="img/suit-heart.svg" alt="" />
+      </button>
+      <div class="backdrop">
+        <div class="left">
+          <div id="cancelbtn">
+            <button><img src="img/chevron-right.svg" alt="" /></button>
+          </div>
+          <div class="left-wrapper">
+            <!-- <li class="content-item">
+              <img src="img/pokemon'.png" alt="POKEMON" class="content-img" />
+              <img src="img/line.svg" alt="line" class="line" />
+              <div class="content-info-wrapper">
+                <div class="name-wrapper">
+                  <h3 class="pokemon-name">Pokemon</h3>
+                  <p class="pokemon-info">Grass, Poison</p>
+                </div>
+                <div>
+                  <button class="heart_btn">
+                    <img src="img/suit-heart.svg" alt="HEART" class="heart" />
+                  </button>
+                </div>
+              </div>
+              <div class="ages-wrapper">
+                <span class="kg">6.9 kg</span>
+                <span class="age">99 age</span>
+              </div>
+            </li> -->
+          </div>
+        </div>
+      </div>
+      <img src="img/pokemon_logo.svg" alt="LOGO IMG" class="logo-img" />
+      <div class="search__wrapper">
+        <form action="#" id="fomrSearch">
+          <select id="selectGross">
+            <option selected>sort</option>
+            <option value="gross">gross</option>
+            <option value="fire">fire</option>
+            <option value="bug">bug</option>
+            <option value="water">water</option>
+            <option value="normal">normal</option>
+            <option value="electric">electric</option>
+            <option value="ground">ground</option>
+            <option value="fairy">fairy</option>
+            <option value="ghost">ghost</option>
+            <option value="rock">rock</option>
+            <option value="psychic">psychic</option>
+            <option value="fighting">fighting</option>
+          </select>
+          <input type="text" placeholder="Search" id="SearchInput" />
+          <select id="sort">
+            <option selected>sort</option>
+            <option value="sortA">A-Z name</option>
+            <option value="sortZ">Z-A name</option>
+          </select>
+          <button class="searchBtn">Button</button>
+        </form>
+      </div>
+      <div class="content">
+        <!-- <li class="content-item">
+          <img src="img/pokemon'.png" alt="POKEMON" class="content-img" />
+          <img src="img/line.svg" alt="line" class="line" />
+          <div class="content-info-wrapper">
+            <div class="name-wrapper">
+              <h3 class="pokemon-name">Pokemon</h3>
+              <p class="pokemon-info">Grass, Poison</p>
+            </div>
+            <div>
+              <button class="heart_btn">
+                <img src="img/suit-heart.svg" alt="HEART" class="heart" />
+              </button>
+            </div>
+          </div>
+          <div class="ages-wrapper">
+            <span class="kg">6.9 kg</span>
+            <span class="age">99 age</span>
+          </div>
+        </li> -->
+      </div>
     </div>
     <script src="js/app.js"></script>
     <script src="js/main.js"></script>
