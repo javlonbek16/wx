@@ -252,9 +252,3 @@ body {
   height: 50px;
 }
 
-.deleteBtn {
-  background-image: url("./img/trash3.svg");
-  display: block;
-  width: 30px;
-  height: 30px;
-}

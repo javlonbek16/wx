@@ -92,7 +92,7 @@ const loadCard = (data) => {
         <p class="pokemon-info">${data.types[0].type.name}</p>
       </div>
       <div>
-        <button class="heart_btn">
+        <button class="heart_btn" onclick="handelClick(${data.id})">
           <img src="img/suit-heart.svg" alt="HEART" class="heart" />
         </button>
       </div>
@@ -196,7 +196,7 @@ function crearCard(objeto) {
       <p class="pokemon-info">${type}</p>
     </div>
     <div>
-      <button class="heart_btn">
+      <button class="heart_btn" onclick="handelClick(${objeto.id})">
         <img src="img/suit-heart.svg" alt="HEART" class="heart" />
       </button>
     </div>
