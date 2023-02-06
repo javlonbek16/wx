@@ -64,7 +64,7 @@ body {
   position: relative;
 }
 #selectGross,
-#selectAz {
+#sort {
   padding: 10px 52px;
   background: #ffffff;
   border: 2px solid #000000;
@@ -217,6 +217,7 @@ body {
   left: 830px;
   height: 100%;
   padding: 20px;
+  width: 395px;
 }
 
 .modal-open {
@@ -227,6 +228,11 @@ body {
 
 .content-item {
   margin-left: 30px;
+  background: #fafafa;
+  border: 2px solid #000000;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: 300px;
 }
 
 @media screen and (max-width: 768px) {
@@ -244,4 +250,11 @@ body {
 .heartbtn {
   width: 50px;
   height: 50px;
+}
+
+.deleteBtn {
+  background-image: url("./img/trash3.svg");
+  display: block;
+  width: 30px;
+  height: 30px;
 }
